@@ -1,0 +1,46 @@
+.listitem {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.profile {
+  background-color: #10b981;
+  height: 35px;
+  width: 35px;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  height: 100%;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.stars {
+  height: 10px;
+  width: 70px;
+}
+
+.details {
+  padding: 0px;
+  margin: 0px;
+}
+
+.delete {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
